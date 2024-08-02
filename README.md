@@ -4,9 +4,9 @@ Welcome to the **Algorithms and Data Structures Solutions** repository! This rep
 
 ## Table of Contents
 
-| Category      | Name                  | Link                         | Notes                 | Source        |
+| Category      | Name                  | Level                         | Notes                 | Source        |
 |---------------|-----------------------|------------------------------|-----------------------|---------------|
-| Arrays        | Two Sum               |               | use hash map to instantly check for difference value, map will add index of last occurrence of a num, don’t use same element twice;  |  |
-| Linked Lists  | Best Time to Buy and Sell Stock   |   | find local min and search for local max, sliding window;               |  |
-| Trees         | Contains Duplicate    |               | hashset to get unique values in array, to check for duplicates easily |  |
-| Sorting       | Maximum Subarray      |               | pattern: prev subarray cant be negative, dynamic programming: compute max sum for each prefix           |  |
+| Arrays        | [Two Sum](https://leetcode.com/problems/two-sum/)               |     Easy          | use hash map to instantly check for difference value, map will add index of last occurrence of a num, don’t use same element twice;  | 1-two-sum.py |
+| Linked Lists  | Best Time to Buy and Sell Stock   |  Easy | find local min and search for local max, sliding window;               |  |
+| Trees         | Contains Duplicate    |       Easy        | hashset to get unique values in array, to check for duplicates easily |  |
+| Sorting       | Maximum Subarray      |      Medium         | pattern: prev subarray cant be negative, dynamic programming: compute max sum for each prefix           |  |
