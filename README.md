@@ -10,5 +10,5 @@ This repo is created exclusively for educational purposes.
 |---------------|-----------------------|------------------------------|-----------------------|
 | Arrays        | [Two Sum](https://leetcode.com/problems/two-sum/)               |     Easy          | use hash map to instantly check for difference value, map will add index of last occurrence of a num, don’t use same element twice;  |
 | Linked Lists  | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)   |  Easy | find local min and search for local max, sliding window;               |
-| Trees         | Contains Duplicate    |       Easy        | hashset to get unique values in array, to check for duplicates easily |
+| Trees         | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)    |       Easy        | hashset to get unique values in array, to check for duplicates easily |
 | Sorting       | Maximum Subarray      |      Medium         | pattern: prev subarray cant be negative, dynamic programming: compute max sum for each prefix           |

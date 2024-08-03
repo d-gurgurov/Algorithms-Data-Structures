@@ -1,5 +1,6 @@
 from typing import List
 
+# complexity: O(n)
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         left = 0 # buy
