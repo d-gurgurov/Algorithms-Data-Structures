@@ -12,3 +12,4 @@ This repo is created exclusively for educational purposes.
 | Linked Lists  | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)   |  Easy | find local min and search for local max, sliding window;               |
 | Trees         | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)    |       Easy        | hashset to get unique values in array, to check for duplicates easily |
 | Sorting       | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)      |      Medium         | pattern: prev subarray cant be negative, dynamic programming: compute max sum for each prefix           |
+| String      | [Valid Parantheses](https://leetcode.com/problems/valid-parentheses/description/)      |      Easy         | push opening brace on stack, pop if matching close brace, at end if stack empty, return true;           |
