@@ -14,5 +14,4 @@ This repo is created exclusively for educational purposes.
 | Sorting       | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)      |      Medium         | pattern: prev subarray cant be negative, dynamic programming: compute max sum for each prefix           |
 | String      | [Valid Parantheses](https://leetcode.com/problems/valid-parentheses/description/)      |      Easy         | push opening brace on stack, pop if matching close brace, at end if stack empty, return true           |
 | Linked Lists      | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)      |      Easy         | iterate through maintaining cur and prev; recursively reverse, return new head of list           |
-
 | Arrays     | [Container with Most Water](https://leetcode.com/problems/container-with-most-water/)      |      Medium         | shrinking window, left/right initially at endpoints, shift the pointer with min height         |
