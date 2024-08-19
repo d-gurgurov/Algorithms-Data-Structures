@@ -24,4 +24,25 @@ class Solution:
 
         return area
     
+
+class Solution2:
+    def maxArea(self, height: List[int]) -> int:
+        # complexity o(n) solution
+        left = 0
+        right = len(height) - 1
+        max_area = 0
+        
+        # using the shrinking window with two pointers to find the max area
+        while left < right:
+            area = min(height[left], height[right]) * (right - left)
+            if height[left] < height[right]:
+                left += 1
+            elif height[right] < height[left]:
+                right -= 1
+            elif height[right] == height[left]:
+                right -= 1
+            max_area = max(max_area, area)
+
+        return max_area
+    
     
